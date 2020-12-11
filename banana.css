@@ -1,21 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #F2C94C;
+    --black: #333333;
+}
+
+#header {
+    font-size: 1rem;
+    display: block;
+    background-color: var(--primary);
+    text-align: center;
+    width: auto;
+    padding: 1rem;
+}
+
+body {
+    background-image: url("minion.jpg");
+    height: 20rem;
+    background-position: 90% 250%;
+    background-repeat: no-repeat;
+    background-size: 30rem;
+    position: initial;
+}
+
 #text-input {
-    border: 1px solid black;
-    width: 80%;
-    height: 10vh;
+    border: 2px solid black;
+    width: 45%;
+    height: 20vh;
     display: block;
     margin: 1rem;
+    margin-left: 10rem;
     padding: 1rem;
+    background-color: transparent;
+    margin-top: 3.5rem;
+}
+
+#button-translate {
+    font-size: medium;
+    margin-left: 25rem;
+    padding: 0.2rem;
+    background-color: #F2C94C;
+    border-color: #F2C94C;
+}
+
+#output-heading {
+    font-size: large;
+    margin-left: 20rem;
 }
 
 #output {
-    border: 1px solid black;
-    height: 10vh;
-    width: 80%;
+    border: 2px solid black;
+    height: 20vh;
+    width: 45%;
     margin: 1rem;
+    margin-left: 10rem;
     padding: 1rem;
+    margin-bottom: 3.5rem;
+    overflow: auto;
+
 }
 
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--primary);
+    text-align: center;
+    color: black;
+}
 
-#output-heading {
-    font-size: larger;
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: black;
+    font-weight: bold;
+}
+
+/* list */
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem, 0.5rem;
 }
