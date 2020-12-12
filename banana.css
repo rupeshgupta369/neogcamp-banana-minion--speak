@@ -53,7 +53,7 @@ body {
     background-color: #F2C94C;
     border-color: #F2C94C;
     font-family: 'Kalam',
-    cursive;
+        cursive;
 }
 
 #output-heading {
@@ -71,7 +71,7 @@ body {
     padding: 1rem;
     margin-bottom: 3.5rem;
     overflow: auto;
-font-family: inherit;
+    font-family: inherit;
 }
 
 #footer {
