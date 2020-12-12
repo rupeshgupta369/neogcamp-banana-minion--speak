@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    font-family: 'Kalam', cursive;
+    color: #333333;
+
 }
 
 :root {
@@ -15,7 +21,7 @@
     background-color: var(--primary);
     text-align: center;
     width: auto;
-    padding: 1%;
+    padding: auto;
 }
 
 body {
@@ -37,6 +43,7 @@ body {
     padding: 1rem;
     background-color: transparent;
     margin-top: 3.5rem;
+    font-family: inherit;
 }
 
 #button-translate {
@@ -45,11 +52,14 @@ body {
     padding: 0.2rem;
     background-color: #F2C94C;
     border-color: #F2C94C;
+    font-family: 'Kalam',
+    cursive;
 }
 
 #output-heading {
     font-size: large;
     margin-left: 25%;
+    font-family: inherit;
 }
 
 #output {
@@ -61,14 +71,14 @@ body {
     padding: 1rem;
     margin-bottom: 3.5rem;
     overflow: auto;
-
+font-family: inherit;
 }
 
 #footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    padding: 1%;
+    padding: auto;
     background-color: var(--primary);
     text-align: center;
     color: black;
