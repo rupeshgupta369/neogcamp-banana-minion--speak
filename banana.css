@@ -15,7 +15,7 @@
     background-color: var(--primary);
     text-align: center;
     width: auto;
-    padding: 1rem;
+    padding: auto;
 }
 
 body {
@@ -41,7 +41,7 @@ body {
 
 #button-translate {
     font-size: medium;
-    margin-left: auto;
+    margin-left: 32%;
     padding: 0.2rem;
     background-color: #F2C94C;
     border-color: #F2C94C;
@@ -49,7 +49,7 @@ body {
 
 #output-heading {
     font-size: large;
-    margin-left: auto;
+    margin-left: 25%;
 }
 
 #output {
@@ -68,7 +68,7 @@ body {
     position: fixed;
     bottom: 0;
     width: 100%;
-    padding: 1rem;
+    padding: auto;
     background-color: var(--primary);
     text-align: center;
     color: black;
