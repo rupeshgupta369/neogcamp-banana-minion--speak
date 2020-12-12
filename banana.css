@@ -41,7 +41,7 @@ body {
 
 #button-translate {
     font-size: medium;
-    margin-left: 25rem;
+    margin-left: auto;
     padding: 0.2rem;
     background-color: #F2C94C;
     border-color: #F2C94C;
@@ -49,7 +49,7 @@ body {
 
 #output-heading {
     font-size: large;
-    margin-left: 20rem;
+    margin-left: auto;
 }
 
 #output {
