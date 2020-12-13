@@ -1,21 +1,19 @@
+/* initially recommended settings for body  */
+
+
 * {
-    margin: 0;
-    padding: 0;
+    padding: 0px;
+    margin: 0px;
     box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+
 :root {
     --primary: #F2C94C;
-    --black: #333333;
-}
-
-#header {
-    font-size: 1rem;
-    display: block;
-    background-color: var(--primary);
-    text-align: center;
-    width: auto;
-    padding: 1rem;
+    --secondary: #3E6881;
+    --grey: #d4dbdd;
 }
 
 body {
@@ -25,70 +23,130 @@ body {
     background-repeat: no-repeat;
     background-size: 30rem;
     position: initial;
+    font-family: 'Kalam',
+        cursive;
 }
 
-#text-input {
-    border: 2px solid black;
-    width: 45%;
-    height: 20vh;
-    display: block;
-    margin: 1rem;
-    margin-left: 10rem;
-    padding: 1rem;
-    background-color: transparent;
-    margin-top: 3.5rem;
-}
-
-#button-translate {
-    font-size: medium;
-    margin-left: 25rem;
-    padding: 0.2rem;
-    background-color: #F2C94C;
-    border-color: #F2C94C;
-}
-
-#output-heading {
-    font-size: large;
-    margin-left: 20rem;
-}
-
-#output {
-    border: 2px solid black;
-    height: 20vh;
-    width: 45%;
-    margin: 1rem;
-    margin-left: 10rem;
-    padding: 1rem;
-    margin-bottom: 3.5rem;
-    overflow: auto;
-
-}
-
-#footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    padding: 1rem;
+#header {
     background-color: var(--primary);
+    width: auto;
+    height: auto;
     text-align: center;
-    color: black;
+    padding: 20px 20px;
 }
 
+#header h1 {
+    /* color: var(--secondary); */
+    color: black;
+    font-weight: bold;
+}
+
+/* preferable settings for container */
+
+#container {
+    height: 53vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin: 5rem 0px 80px 0px; */
+    margin: 5% 10% 5.5% 0px;
+
+}
+
+#container p {
+    font-size: large;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#btn-section {
+    display: flex;
+}
+
+button {
+    border: none;
+    background-color: var(--primary);
+    color: black;
+    padding: 10px;
+    margin: 30px 15px;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 2px 1px rgb(34, 34, 34);
+}
+
+#input-textarea,
+#output-textarea {
+    resize: none;
+    border: 2px solid black;
+    background-color: transparent;
+    width: 45vw;
+    height: 20vh;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: large;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--primary);
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding: 15px 20px;
+}
+
+#input-box,
+#output-box p {
+    color: black;
+    font-weight: bold;
+    align-self: center;
+}
+
+/* social buttons */
 .link {
     text-decoration: none;
+    color: black;
     padding: 0.5rem 1rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    color: black;
     font-weight: bold;
+}
+
+.link:hover {
+    text-decoration: underline;
 }
 
 /* list */
 .list-non-bullet {
     list-style: none;
+    padding: 1rem,
+        0.5rem;
+
 }
 
 .list-item-inline {
     display: inline;
-    padding: 0rem, 0.5rem;
+    padding: 1rem, 0.5rem;
+}
+
+#web-link {
+    text-decoration: none;
+    color: black;
+    padding: 0.5rem 1rem;
+
+}
+
+#web-link:hover {
+    text-decoration: underline;
+    font-size: large;
 }
